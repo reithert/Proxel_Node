@@ -9,9 +9,7 @@ class Proxel_Node {
         .WithUrl("https://proxel-server.herokuapp.com/nodehub").Build();
 
         //         public static HubConnection Connection = new HubConnectionBuilder()
-        // .WithUrl("https://localhost:7261/nodehub").Build();
-
-    
+        // .WithUrl("https://localhost:7261/nodehub").Build();   
 
     static void Main(string[] args)
     {
