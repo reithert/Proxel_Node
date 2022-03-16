@@ -5,11 +5,11 @@ using Microsoft.AspNetCore.SignalR.Client;
 
 
 class Proxel_Node {
-        // private static HubConnection Connection = new HubConnectionBuilder()
-        // .WithUrl("https://proxel-server.herokuapp.com/nodehub").Build();
+        public static HubConnection Connection = new HubConnectionBuilder()
+        .WithUrl("https://proxel-server.herokuapp.com/nodehub").Build();
 
-                public static HubConnection Connection = new HubConnectionBuilder()
-        .WithUrl("https://localhost:7261/nodehub").Build();
+        //         public static HubConnection Connection = new HubConnectionBuilder()
+        // .WithUrl("https://localhost:7261/nodehub").Build();
 
     
 
